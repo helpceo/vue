@@ -14,6 +14,8 @@ export default {
   },
   created(){
     this.userItem({name: '笑脸'})
+    console.log(_.isBoolean(true))
+    console.log(process.env.VUE_APP_HOAT)
   },
   methods:{
   ...Vuex.mapActions('home', [

@@ -7,8 +7,6 @@ import './plugins/element.js'
 import './theme/element-variables.scss'
 
 Vue.config.productionTip = false
-console.log(process.env.VUE_APP_HOAT)
-console.log(_.isBoolean(true))
 new Vue({
   router,
   store,
