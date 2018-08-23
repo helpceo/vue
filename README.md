@@ -6,6 +6,7 @@
 2.采用了element UI的按需引入,主题可以自行改变
 3.支持lodash,vue-router,vuex(其中vuex有一个写好的例子)
 4.支持axios,采用http代替axios
+5.支持全局的环境变量procss.env
 ```
 ## Project setup
 ```
